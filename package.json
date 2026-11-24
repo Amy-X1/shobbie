@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "npm --prefix shobbie-hub run dev",
+    "build": "npm --prefix shobbie-hub run build",
+    "preview": "npm --prefix shobbie-hub run preview",
+    "install:hub": "npm --prefix shobbie-hub install"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "react-icons": "^5.7.0",
+    "react-router-dom": "^6.14.1"
+  }
+}
